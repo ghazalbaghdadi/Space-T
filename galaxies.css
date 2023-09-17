@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;600&family=Croissant+One&family=Dancing+Script:wght@400;600&family=Exo+2:ital,wght@0,300;1,200&family=Fuggles&family=Playfair+Display:wght@400;500&family=Rajdhani&family=Trade+Winds&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+header{
+    height: 60px;
+    padding: 10px;
+    background-color: #e4c9b0;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav a:active{
+    color: #d8315b;
+}
+
+body{
+    background-color: rgb(36, 1, 82);}
+
+h1{
+        text-align: center;
+        padding: 1rem;
+        color: #e4c9b0;
+ }
+
+
+ .card{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #3db;
+    box-shadow: 0 0 4px 4px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+img+p{
+    padding: 0.5rem;
+    font-weight: 100;
+    text-align:center;
+color: white;
+}
+
+
+    footer{
+        position: static;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e4c9b0;
+        width: 100%;
+        height: auto;
+    }
+    .font{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 600;
+        text-align: center;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+    }
+    
+    .fa-brands{
+        text-decoration: none;
+        color: black;
+        justify-content: space-between;
+        margin: 0 2rem;
+    }
+    .dood{
+        font-family: 'Trade Winds', cursive;
+        color: blue;
+    }
+    .fa-brands:hover{
+        color: white;
+    }
+    .styl{
+        font-family: 'Exo 2', sans-serif ;
+        font-weight: 200;
+        
+    }
+    .reason{
+        background-color: #d8315b;
+        width: 185vh;
+        height: 70vw;
+        border-radius: 6px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .h2{
+        text-align: center;
+        padding-top: 2rem;
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+
+    .intro{
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    div.intro h3{
+        color: #e4c9b0;
+        
+    }
+
+    @media all and (max-width: 500px){
+    
+        .reason{
+            background-color: #d8315b;
+            width: 185vh;
+            height: 190vw;
+            border-radius: 6px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    
+    }

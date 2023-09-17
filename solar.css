@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;600&family=Croissant+One&family=Dancing+Script:wght@400;600&family=Exo+2:ital,wght@0,300;1,200&family=Fuggles&family=Playfair+Display:wght@400;500&family=Rajdhani&family=Trade+Winds&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+header{
+    height: 60px;
+    padding: 10px;
+    background-color: #e4c9b0;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.dood{
+    color: blue;
+    font-family: 'Trade Winds', cursive;
+}
+nav a{
+    text-decoration: none;}
+
+    nav a:active{
+        color: #d8315b;
+    }
+    
+    body{
+        background-color: rgb(36, 1, 82);}
+        footer{
+            position: static;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #e4c9b0;
+            width: 100%;
+            height: auto;
+        }
+        .font{
+            font-family: 'Dancing Script', cursive;
+            font-weight: 600;
+            text-align: center;
+        }
+        .footer-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 1rem;
+        }
+        
+        .icons{
+            display: flex;
+            flex-direction: row;
+            padding: 1rem;
+        }
+        .fa-brands{
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+            margin: 0 2rem;
+        }
+        
+        .fa-brands:hover{
+            color: white;
+        }
+    
+        h1{
+            text-align: center;
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+            color: #e4c9b0;
+     }
+    
+    
+     .card{
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        margin: 10px;
+        background-color: #ffb8b0;
+        box-shadow: 0 0 4px 4px #c8a2c8;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .cards{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    }
+    
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    img+p{
+        padding: 0.5rem;
+        font-weight: 100;
+        text-align: center;
+    color: black;
+    }
+    article h3 {
+        color:rgb(36, 1, 82);;
+    }
+    .reason{
+        background-color: #cc88e6;
+        width: 198vh;
+        height: 58vw;
+        border-radius: 6px;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+    }
+details{
+    color:#e02352;
+}
+
+details span{
+    font-style: italic;
+    color: #bcf7ff;
+}
+  
+    .h2{
+        text-align: center;
+       padding-top: 20rem;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    section div{
+        padding: 1rem;
+    }
+
+    button{
+        border-radius: 7px;
+        padding: 0.5rem 1rem;
+        margin-top: 0.3rem;
+        background-color: #4dccbdec;
+        border: #4dccbdd2 1px solid;
+    }
+    
+    button:hover{
+        box-shadow: 0px 0px 3px 3px white;
+    }
+        .style{
+            font-family: 'Exo 2', sans-serif ;
+            font-weight: 200;
+            padding-top: 0.5rem;
+        }
+        b{
+            font-weight: 600;
+            font-family: 'Exo 2', sans-serif ;
+            color: #e02352;
+        }
+
+        @media all and (max-width: 500px){
+    
+            .reason{
+                background-color: #bcf7ff;
+                width: 185vh;
+                height:170vw;
+                border-radius: 6px;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+            button{
+                border-radius: 7px;
+                padding: 0.5rem 1rem;
+                margin-top: 0.3rem;
+                background-color: magenta;
+                border: black 1px dotted;
+            }
+        }

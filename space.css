@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;600&family=Croissant+One&family=Dancing+Script:wght@400;600&family=Exo+2:ital,wght@0,300;1,200&family=Fuggles&family=Playfair+Display:wght@400;500&family=Rajdhani&family=Trade+Winds&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+header{
+    height: 60px;
+    padding: 10px;
+    background-color: #e4c9b0;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:active{
+    color: #d8315b;
+}
+body{
+    background-color: rgb(36, 1, 82);}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    color: #e4c9b0;
+}
+
+main h3{
+    background-color: #4dccbdd2;
+    box-shadow:6px  6px 6px #d8315b;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 180vh;
+    height: 9vw;
+    font-family: 'Trade Winds', cursive;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#h1{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.bold{
+    color: #e4c9b0;
+    font-family: 'Trade Winds', cursive;
+}
+.boldo{
+    font-family: 'Trade Winds', cursive;
+    color: blue;
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #d8315b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+img+p{
+    padding: 0.5rem;
+    font-weight: 100;
+    text-align:center;
+color: silver;
+}
+
+button{
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    background-color: #4dccbdec;
+    border: #4dccbdd2 1px solid;
+}
+
+button:hover{
+    box-shadow: 0px 0px 3px 3px silver;
+}
+h3.img+img{
+    height: 230px;
+}
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e4c9b0;
+    width: 100vw;
+    height: auto;
+}
+.font{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.fa-brands{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.fa-brands:hover{
+    color: white;
+}
+
+@media all and (max-width: 500px){
+    main h3{
+        background-color: #4dccbdd2;
+        box-shadow:6px  6px 6px #d8315b;
+        padding-top: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        text-align: center;
+        width: 180vh;
+        height: 35vw;
+        font-family: 'Trade Winds', cursive;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .bold{
+        color: blue;
+        font-family: 'Trade Winds', cursive;
+    }
+}
